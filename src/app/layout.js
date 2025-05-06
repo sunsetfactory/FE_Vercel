@@ -12,7 +12,7 @@ export default async function RootLayout({ children }) {
   const topics = await resp.json();
   return (
     <html lang="en">
-      <body>
+      <body className="vsc-initialized">
         <h1><Link href="/">WEB</Link></h1>
         <ol>
           {topics.map(topic=>{
@@ -25,3 +25,4 @@ export default async function RootLayout({ children }) {
     </html>
   )
 }
+김 희 수
