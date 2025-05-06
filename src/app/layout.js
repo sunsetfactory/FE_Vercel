@@ -25,4 +25,3 @@ export default async function RootLayout({ children }) {
     </html>
   )
 }
-김 희 수
